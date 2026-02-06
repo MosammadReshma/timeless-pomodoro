@@ -1,4 +1,4 @@
-let minutes = 25 * 60; // total seconds
+let minutes = 25 * 60; 
 let timerInterval = null;
 
 // DOM references
@@ -6,7 +6,7 @@ const start = document.getElementById("start");
 const pause = document.getElementById("pause");
 const reset = document.getElementById("reset");
 const musicBtn = document.getElementById("music");
-const audio = document.getElementById("bg-music"); // your <audio> element
+const audio = document.getElementById("bg-music"); 
 
 function updateTimerDisplay() {
     const minutesDisplay = document.getElementById("minutes");
@@ -64,3 +64,4 @@ music.addEventListener("click", toggleMusic);
 
 // Initial display
 updateTimerDisplay();
+
